@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# Recibir url de un sitio web en terminal linux y decir si reponde 200 o no.
+# Receive url of a website in linux terminal and say if it responds 200 or not.
 
-# ingrese url
-read -p "Introduce la url: " url
+# Input url
+read -p "Enter the url: " url
 
 
 if curl -I "$url" 2>&1 | grep -w "200\|301" ; then
-    echo "$url está activo"
+    echo "$url It's OK"
 else
-    echo "$url está caído"
+    echo "$url Website is down"
 fi
 
