@@ -2,5 +2,5 @@
 
 users=$(cat /etc/passwd | grep -i /bin/bash)
 
-echo "Los usuarios con bin/bash como consula son:"
+echo "Users with bin/bash shell:"
 echo "$users"
