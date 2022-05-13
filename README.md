@@ -1,3 +1,3 @@
-# scriptsLinux
+# Scripts Linux
 
-Scripts bash linux
+Bash Scripting
